@@ -15,6 +15,6 @@ search_box = browser.find_element(By.NAME, 'search_query')
 search_box.send_keys('new movie trailer') #use any keyword to search or browse the youtube
 search_box.send_keys(Keys.RETURN)
 
-sleep(10) 
+sleep(30) 
 
 browser.quit()
